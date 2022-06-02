@@ -1,0 +1,68 @@
+.container{
+  /* display: inline-block; */
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 20%;
+  /* position: auto; */
+  overflow: hidden;
+
+  /* display: flex;
+  flex-flow: column wrap;
+  overflow: hidden; */
+}
+
+
+
+.result{
+ border: 1px solid black;
+ width: 50%;
+}
+.screen{
+ border: 1px solid red;
+ background-color: red;
+ border-radius: 10px;
+ width: 96%;
+ height: 60px;
+ padding: 5px;
+ overflow: hidden;
+ text-align: right;
+ display: inline-block;
+ font-size: x-large;
+}
+
+.buttons{
+ width: 100%;
+ border: 2px solid green;
+}
+
+.btn-radius{
+  border-radius: 100%;
+  margin: 15px;
+  padding: 15px;
+  border: none;
+  font-size: large;
+}
+
+.btn-radius:hover{
+ background-color: green;
+ cursor: pointer;
+}
+.red{
+ background-color: red;
+}
+
+
+.buttons2{
+
+ text-align: center;
+ font-size: xx-large;
+}
+
+.buttons2 span{
+ margin: 15px;
+ padding: 5px;
+ border: 1px solid black;
+ border-radius:100%;
+ overflow: none;
+ display: inline-block;
+}
