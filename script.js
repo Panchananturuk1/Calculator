@@ -10,7 +10,7 @@ function solve() {
   let y = eval(x);
   document.getElementById('inp').value = y;
 }
-
+// CLEAR THE SCREEN
 function clr() {
   document.getElementById('inp').value = "";
 }
