@@ -3,7 +3,8 @@ input[type="button"]
 background-color:green;
 color: black;
 border: solid black 2px;
-width:100%
+width:100%;
+cursor: pointer;
 }
 
 input[type="text"]
