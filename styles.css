@@ -1,3 +1,18 @@
-body {
-  background: orange;
+input[type="button"]
+{
+background-color:green;
+color: black;
+border: solid black 2px;
+width:100%
+}
+
+input[type="text"]
+         {
+         background-color:white;
+         border: solid black 2px;
+         width:100%
+         }
+
+table{
+  border: 1px solid black;
 }

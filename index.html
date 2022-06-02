@@ -2,17 +2,41 @@
   <head>
     <meta charset="UTF-8">
     <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
    
 
-    <div class="container">
-      <div> <input type="text" /> </div>
-      <div class="row">
-        <button value="1"> </button>
-      </div>
-    </div>
+    <table>
+      <tr>
+        <td colspan="3"> <input type="text"> </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="7"  onclick="disp('1')" /></td>  
+        <td><input type="button" value="8"  onclick="disp('2')" /></td>  
+        <td><input type="button" value="9"  onclick="disp('3')" /></td>  
+        <td><input type="button" value="*"  onclick="disp('/')" /></td>  
+      </tr>
+      <tr>
+      <td><input type="button" value="4"  onclick="disp('1')" /></td>  
+      <td><input type="button" value="5"  onclick="disp('2')" /></td>  
+      <td><input type="button" value="6"  onclick="disp('3')" /></td>  
+      <td><input type="button" value="/"  onclick="disp('/')" /></td>  
+    </tr>
+    <tr>
+    <td><input type="button" value="1"  onclick="disp('1')" /></td>  
+    <td><input type="button" value="2"  onclick="disp('2')" /></td>  
+    <td><input type="button" value="3"  onclick="disp('3')" /></td>  
+    <td><input type="button" value="/"  onclick="disp('/')" /></td>  
+  </tr>
+  <tr>
+  <td><input type="button" value="0"  onclick="disp('1')" /></td>  
+  <td><input type="button" value="."  onclick="disp('2')" /></td>  
+  <td><input type="button" value="="  onclick="disp('3')" /></td>  
+  <td><input type="button" value="/"  onclick="disp('/')" /></td>  
+</tr>
+
+    </table>
 
 
   </body>
